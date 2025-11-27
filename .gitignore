@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS specific
+.DS_Store
+
+# Docker
+docker-compose.override.yml
