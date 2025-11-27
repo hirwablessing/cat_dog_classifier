@@ -5,6 +5,10 @@ This project is an end-to-end Machine Learning pipeline for classifying images o
 
 **Dataset:** [Cat and Dog Dataset on Kaggle](https://www.kaggle.com/datasets/tongpython/cat-and-dog)
 
+**Frontend:** [Hosted Frontend](https://cat-dog-ui.onrender.com)
+
+**Backend:** [Hosted Backend](https://cat-dog-classifier-wp81.onrender.com/docs)
+
 It includes:
 - **Data Processing**: Automated ingestion and augmentation.
 - **Model Training**: CNN model built with TensorFlow/Keras.
@@ -34,7 +38,7 @@ cat_dog_classifier/
 - Docker and Docker Compose installed.
 - Python 3.10+ (if running locally without Docker).
 
-### 1. Run with Docker
+### 1. Run locally with Docker
 This will start the API and UI services.
 ```bash
 docker-compose up --build
@@ -73,4 +77,4 @@ streamlit run ui/app.py
 4. The model will retrain in the background and update automatically.
 
 ## Video Demo
-https://www.bugufi.link/G9DMnc
+https://youtu.be/hpKFiA5Skuk
